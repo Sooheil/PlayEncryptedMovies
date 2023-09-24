@@ -10,7 +10,9 @@ at first, this project used Windows media player dll. The encryption algorithm u
 
 **Note**: 
 If you want to use this project pay attention to your special key and initialization vector (IV). In this project, at first, I encrypt the video file with custom **Key** and **Iv** like these:
+
   • Key: YOUR8KEY
+  
   • IV: YOURIVS8
 
 After that, I used those inside the **ContentEncryption** class to decrypt the video.
