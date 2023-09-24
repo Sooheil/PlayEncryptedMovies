@@ -16,3 +16,6 @@ If you want to use this project pay attention to your special key and initializa
   • IV: YOURIVS8
 
 After that, I used those inside the **ContentEncryption** class to decrypt the video.
+
+# **Licence**
+You can use this project as free.
