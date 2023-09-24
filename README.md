@@ -8,7 +8,7 @@ at first, this project used Windows media player dll. The encryption algorithm u
 
 **Windows media player** can play the file using URL and I implement a virtual web app and **play** get API inside this project (on http://localhost:9000/) for sending requests from Windows media player to that API. In that API I decrypt all bytes of video using the memory stream and finally make **HttpResponseMessage** for the Windows media player URL.
 
-**Note**: 
+# **Note**: 
 If you want to use this project pay attention to your special key and initialization vector (IV). In this project, at first, I encrypt the video file with custom **Key** and **Iv** like these:
 
   • Key: YOUR8KEY
